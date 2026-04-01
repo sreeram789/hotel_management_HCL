@@ -1,44 +1,19 @@
-.
+Team Structure:
+🔧 Backend Developers
+Ameen Ahmed: Backend Lead - Authentication & Security
 
-🚀 Features
+JWT authentication, Spring Security, email verification
+Key files: SecurityConfig.java, AuthController.java, JwtUtil.java
+sanjit : Backend Developer - Booking & Hotel Management
 
-🌍 Multi-City Hotel Search
-Select from Bangalore, Chennai, or Mumbai
-View hotels specific to each selected city
+Booking logic, hotel/room APIs, availability algorithms
+Key files: BookingController.java, BookingServiceImpl.java, HotelController.java
+🎨 Frontend Developers
+Sreeram: Frontend Lead - UI Components & Pages
 
-📅 Date-Based Booking
-Choose Check-in and Check-out dates
-Booking is enabled only after selecting valid dates
+React components, authentication pages, booking UI, responsive design
+Key files: AuthPages.jsx, SearchHotels.jsx, UserPages.jsx
+Shridhar: Frontend Developer - Testing & Integration
 
-🏨 Hotel Listings
-Displays 6 hotels per city
-Each hotel includes:
-
-Image preview
-Name & location
-Price per night
-Amenities (WiFi, Gym, Pool, etc.)
-
-🔍 Hotel Details Page
-Full hotel description
-Amenities displayed as tags
-Image carousel (multiple images)
-"Book Now" button (enabled after date selection)
-
-🎨 Modern UI
-Airbnb-inspired design
-Responsive layout
-Clean card-based interface
-Smooth hover effects
-
-🧱 Tech Stack
-
-Frontend
-⚛️ React (Vite)
-🎨 CSS / Tailwind (optional)
-🔄 React Router
-
-Backend (Optional / Future Scope)
-☕ Spring Boot
-🛢️ MySQL
-🔗 REST APIs
+Unit tests, integration tests, E2E testing, API error handling
+Test files structure with scenarios for auth, booking, and admin flows
